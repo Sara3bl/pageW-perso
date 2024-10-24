@@ -1,0 +1,120 @@
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background: linear-gradient(135deg, #33459e, #081455);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+
+td {
+    background-color: #fff;
+    color: #444;
+    font-weight: 500;
+}
+
+tr:nth-child(even) td {
+    background-color: #f7f7f7;
+}
+
+tr:hover td {
+    background-color: #f0f4f8;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Body Styling */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    line-height: 1.7;
+    font-size: 18px;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Section Styling */
+section {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.4s ease;
+}
+
+ 
+
+/* Button Styling */
+button {
+    background-image: linear-gradient(135deg, #FF8A00, #FF3D00);
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    box-shadow: 0 8px 20px rgba(255, 61, 0, 0.2);
+}
+
+button:hover {
+    background-image: linear-gradient(135deg, #FF8A00, #FF5252);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(255, 82, 82, 0.4);
+}
+
+/* General Text Styling */
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
